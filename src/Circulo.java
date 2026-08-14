@@ -1,0 +1,19 @@
+public class Circulo extends Figura {
+    private double radio;
+    
+    public Circulo (String tipo , double radio){
+        super(tipo);
+        this.radio = radio;
+    }
+    public double getRadio() {
+        return radio;
+    }
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+    @Override
+    public double area(){
+        System.out.println("El area del circulo es : " + (int)(Math.PI * (radio*radio)));
+        return ((double)(Math.PI * (radio*radio)));
+    }
+}
