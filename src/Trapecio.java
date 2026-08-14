@@ -33,7 +33,6 @@ public class Trapecio extends Figura{
     }
     @Override
     public double area(){
-        System.out.println("El area del trapecio es : " + ((int)(((this.baseMayor + this.baseMenor) * this.altura) / 2)));
         return ((double)(((this.baseMayor + this.baseMenor) * this.altura) / 2));
 
     }

@@ -13,7 +13,6 @@ public class Circulo extends Figura {
     }
     @Override
     public double area(){
-        System.out.println("El area del circulo es : " + (int)(Math.PI * (radio*radio)));
         return ((double)(Math.PI * (radio*radio)));
     }
 }

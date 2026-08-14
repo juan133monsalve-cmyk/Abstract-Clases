@@ -13,7 +13,6 @@ public class Cuadrado extends Figura{
     }
     @Override
     public double area(){
-        System.out.println("El area del cuadrado es : " + ((int)this.lado*this.lado));
         return ((double)this.lado*this.lado);
     }
 }

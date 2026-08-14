@@ -24,7 +24,6 @@ public class Triangulo extends Figura{
     }
     @Override
     public double area(){
-        System.out.println("El area del triangulo es : " + ((int)(this.altura*this.base)/2));
         return ((double)(this.altura*this.base)/2);
 
     }
